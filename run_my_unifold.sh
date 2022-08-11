@@ -211,7 +211,7 @@ UF_process(){
 
 		    # plot summary of af modeling results
 		    mkdir -p $res_dir/models/plot/$decoy_name
-		    python ${af_official_repo}/AlphaPickle.py --res_dir $decoy_name/UF --save_dir $res_dir/models/plot/$decoy_name
+		    python ${uf_official_repo}/AlphaPickle-UniFold.py --res_dir $decoy_name/UF --save_dir $res_dir/models/plot/$decoy_name
 
 		    #cp $decoy_name/ranked_0.pdb $res_dir/best_model/${decoy_name}_ranked_0.pdb &&
 #		    echo Collecting results files .... && \
